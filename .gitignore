@@ -1,1 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Streamlit
+.streamlit/
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
 
