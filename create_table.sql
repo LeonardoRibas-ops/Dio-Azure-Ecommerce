@@ -1,0 +1,7 @@
+CREATE TABLE produtos (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome NVARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    imagem_url NVARCHAR(500) NOT NULL,
+    data_cadastro DATETIME DEFAULT GETDATE()
+);
