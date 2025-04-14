@@ -1,1 +1,6 @@
+streamlit
+pandas
+pyodbc
+azure-storage-blob
+python-dotenv
 
